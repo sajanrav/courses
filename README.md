@@ -10,3 +10,10 @@
 
 3. Assignment - 3 : Build a probability of default model using logistic or k-nearest neighbourbood algorithm, post exploratory data analysis on a 
    on a loan dataset. 
+
+# 2. Business Statistics and Analysis 
+
+1. Capstone Assignment 1 : Develop a Regression Model for Market Value of Housing Units based on data provided for the year 2013. 
+
+2. Capstone Assignment 2 : Use the model developed in the previous capstone assignment with modifications to variables ( if required ) and predict
+   market value of housing units for the year 2013. 
