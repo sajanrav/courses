@@ -1,7 +1,8 @@
 # Courses
 
 # 1. Financial Analytics 
-
+The following assignments were part of the Executive Development Program offered from XLRI, Jamshedpur.
+   
 1. Assignment - 1 : Create an optimum portfolio of stocks from a group of 25 to 30 stocks after doing cluster analysis on their monthly returns, 
    assuming a five year time-frame, a risk free rate of 7 % and that short-selling is not allowed. 
 
@@ -12,6 +13,8 @@
    on a loan dataset. 
 
 # 2. Business Statistics and Analysis 
+The following assignments were part of the Capstone Project from the Business Statistics and Analysis Specialization 
+offered by Rice University through Coursera. 
 
 1. Capstone Assignment 1 : Develop a Regression Model for Market Value of Housing Units based on data provided for the year 2013. 
 
