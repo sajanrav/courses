@@ -33,3 +33,14 @@ by Georgia Institute of Technology through Coursera.
       display metrics for portfolio after assigning allocation weights. 
 
    b. Convert the above spreadsheet into a Python script and extend it to identify optimal allocations for any 4 stock portfolio. 
+
+2. Assignment - 5 :
+   This assignment has two parts to it - 
+
+   a. Implment Bollinger Bands as an indicator using 20 days look back. The code should generate charts showing the rolling mean, the stock 
+      price and upper and lower bands. The upper band should represent the mean plus one standard deviation and lower band is mean minus 
+      one standard deviation. 
+
+   b. The code should output the indicator value in a range of -1 to 1. +1 represents the situation where the price is at +1 standard deviations
+      above the mean and -1 indicates the situation where the price is -1 standard deviations below the mean. 
+   
