@@ -34,7 +34,18 @@ by Georgia Institute of Technology through Coursera.
 
    b. Convert the above spreadsheet into a Python script and extend it to identify optimal allocations for any 4 stock portfolio. 
 
-2. Assignment - 5 :
+2. Assignment - 2
+   Create an event study profile of a specific 'known' event on S & P 500 stocks and compare its impact on two groups of stocks. The 
+   event is defined when the actual close of the stock price drops below $x, more specifically, when:
+   
+   price[t-1] >= $x
+   price[t] < $x
+
+   Evaluate this event for the time period, January 1, 2008 to December 31, 2009. Compare the results on two lists of S & P 500 stocks:
+   a. Stocks that were in S & P 500 in 2008
+   b. Stocks that were in S & P 500 in 2012
+
+3. Assignment - 5 :
    This assignment has two parts to it - 
 
    a. Implment Bollinger Bands as an indicator using 20 days look back. The code should generate charts showing the rolling mean, the stock 
