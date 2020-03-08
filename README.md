@@ -45,7 +45,31 @@ by Georgia Institute of Technology through Coursera.
    a. Stocks that were in S & P 500 in 2008
    b. Stocks that were in S & P 500 in 2012
 
-3. Assignment - 5 :
+3. Assignment - 3 
+   This assignment has two parts to it - 
+
+   a. Create a market simulation tool, marketsim.py, that takes a command line like this - 
+      python marketsim.py investment orders.csv values.csv
+ 
+      where, 
+      investment = Initial Investment
+      orders.csv = List of orders with fields - Year, Month, Day, Symbol, Buy or Sell, No. of Shares
+      values.csv = List of dates with corresponding portfolio value
+
+   b. Create a portfolio analysis tool, analyze.py that takes a command like this - 
+      python analyze.py values.csv $SPX
+
+      The tool should read in daily values ( cumulative portfolio value) from values.csv and plot them. It should use the symbol on 
+      the command line as a benchmark for comparison. Using this information, analyze.py should :
+      i. Plot the price history over the trading period 
+      ii. Output the following metrics - 
+          a. Standard deviation of daily returns of the portfolio 
+          b. Average daily returns of the total portfolio
+          c. Sharpe Ratio of the portfolio ( Assuming 252 trading days and risk free rate = 0 )
+          d. Cumulative return of the portfolio 
+      
+
+4. Assignment - 5 :
    This assignment has two parts to it - 
 
    a. Implment Bollinger Bands as an indicator using 20 days look back. The code should generate charts showing the rolling mean, the stock 
