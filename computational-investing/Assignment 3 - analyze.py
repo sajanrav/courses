@@ -154,8 +154,7 @@ if __name__ == '__main__':
     values = values[['Date', 'norm_net_value', 'norm_close', 'ret_x', 'ret_y']]
     values.columns= ['Date', 'Fund Value', 'Market Value', 'Fund Daily Returns', 'Market Daily Returns']
     values = values.set_index('Date')
-    values.to_csv('values.csv', index=True)
-
+    
     plot_values(values, plotfile)
 
 
