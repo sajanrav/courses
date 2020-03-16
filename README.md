@@ -87,6 +87,7 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
       the lower band is the mean minus one standard deviation. 
 
    b. Create an event study with the signal being:
+
       Bollinger value for equity today < x
       Bollinger value for equity yesterday >= y
       Bollinger value for SPY today >= z
