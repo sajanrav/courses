@@ -23,7 +23,8 @@ offered by Rice University through Coursera.
 
 # 3. Computational Investing 
 The following problems were part of various quizzes from the Computational Investing course offered 
-by Georgia Institute of Technology through Coursera. 
+by Georgia Institute of Technology through Coursera. Please note that many functions have been re-used 
+from the QSTK codebase ( https://pypi.org/project/QSTK/ )
 
 1. Assignment - 1 : 
    This assignment has two parts to it - 
@@ -78,4 +79,15 @@ by Georgia Institute of Technology through Coursera.
 
    b. The code should output the indicator value in a range of -1 to 1. +1 represents the situation where the price is at +1 standard deviations
       above the mean and -1 indicates the situation where the price is -1 standard deviations below the mean. 
+
+5. Assignment - 6 :
+   This assignment has two parts to it - 
+   
+   a. Implement Bollinger bands as an indicator using a 20 day look back. The upper band should represent mean plus one standard deviation and 
+      the lower band is the mean minus one standard deviation. 
+
+   b. Create an event study with the signal being:
+      Bollinger value for equity today < x
+      Bollinger value for equity yesterday >= y
+      Bollinger value for SPY today >= z
    
