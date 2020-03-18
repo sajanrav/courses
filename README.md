@@ -104,4 +104,26 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
       Bollinger value for equity today < x
       Bollinger value for equity yesterday >= y
       Bollinger value for SPY today >= z
+
+7. Assignment - 7
+   This assignment has three parts to it - 
+
+   a. Implement Bollinger bands as an indicator using 20 day look back. The upper band should represent the mean plus one standard deviation and the
+      lower band is the mean minus one standard deviation. 
+
+   b. Create an event study with the signal being defined below :
+     
+      Bollinger value for the equity today <= x
+      Bollinger value for the equity yesterday >= y 
+      Bollinger value for SPY today >= z 
+
+   c. Revise event analyzer to output a series of trades based on events; Instead of putting a 1 in the event matrix, output to file :
+
+      Date, AAPL, Buy, 100 
+      Date + 5 days, AAPL, Sell, 100
+
+   d. Feed the above output to a market simulator 
+
+   e. Report the performance of the strategy in terms of total return, average daily return, STDDEV of daily return and Sharpe ratio for 
+      the time period. 
    
