@@ -45,8 +45,8 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
 3. Assignment - 3:  
    This assignment has two parts to it - 
 
-   a. Create a market simulation tool, marketsim.py, that takes a command line like this - 
-      python marketsim.py investment orders.csv values.csv
+   a. Create a market simulation tool, marketsim.py, that takes a command line like this -  
+      *python marketsim.py investment orders.csv values.csv*
  
       where,  
       investment = Initial Investment  
@@ -54,7 +54,7 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
       values.csv = List of dates with corresponding portfolio value  
 
    b. Create a portfolio analysis tool, analyze.py that takes a command like this -   
-      python analyze.py values.csv $SPX
+      *python analyze.py values.csv $SPX*
 
       The tool should read in daily values ( cumulative portfolio value) from values.csv and plot them. It should use the symbol on 
       the command line as a benchmark for comparison. Using this information, analyze.py should :  
