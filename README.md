@@ -109,7 +109,7 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
    b. Create an event study with the signal being defined below :  
      
       **Bollinger value for the equity today <= x**  
-      **Bollinger value for the equity yesterday >= y** 
+      **Bollinger value for the equity yesterday >= y**  
       **Bollinger value for SPY today >= z**  
 
    c. Revise event analyzer to output a series of trades based on events; Instead of putting a 1 in the event matrix, output to file :  
