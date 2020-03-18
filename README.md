@@ -53,7 +53,7 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
       orders.csv = List of orders with fields - Year, Month, Day, Symbol, Buy or Sell, No. of Shares  
       values.csv = List of dates with corresponding portfolio value  
 
-   b. Create a portfolio analysis tool, analyze.py that takes a command like this - 
+   b. Create a portfolio analysis tool, analyze.py that takes a command like this -   
       python analyze.py values.csv $SPX
 
       The tool should read in daily values ( cumulative portfolio value) from values.csv and plot them. It should use the symbol on 
@@ -92,7 +92,8 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
 6. Assignment - 6:  
    This assignment has two parts to it - 
    
-   a. Implement Bollinger bands as an indicator using a 20 day look back. The upper band should represent mean plus one standard  deviation and the lower band is the mean minus one standard deviation. 
+   a. Implement Bollinger bands as an indicator using a 20 day look back. The upper band should represent mean plus one standard     
+   deviation and the lower band is the mean minus one standard deviation. 
 
    b. Create an event study with the signal being:  
 
