@@ -69,8 +69,21 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
           c. Sharpe Ratio of the portfolio ( Assuming 252 trading days and risk free rate = 0 )
           d. Cumulative return of the portfolio 
       
+4. Assignment - 4 :
+   The assignment has three parts to it -  
 
-4. Assignment - 5 :
+   a. Use the event analyzer ( developed in Assignment 2 ) to output a series of trades based on events; instead 
+      of putting '1' in the event matrix, output to a file - 
+      
+      Date, AAPL, Buy, 100
+      Date+ 5 days, AAPL, Sell, 100
+
+   b. Feed the output order file into the market simulator ( developed in Assignment 3 )
+
+   c. Report the performance of the strategy in terms of total return, average daily return, STDDEV of daily return and 
+      Sharpe Ratio for the time period. 
+
+5. Assignment - 5 :
    This assignment has two parts to it - 
 
    a. Implment Bollinger Bands as an indicator using 20 days look back. The code should generate charts showing the rolling mean, the stock 
@@ -80,7 +93,7 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
    b. The code should output the indicator value in a range of -1 to 1. +1 represents the situation where the price is at +1 standard deviations
       above the mean and -1 indicates the situation where the price is -1 standard deviations below the mean. 
 
-5. Assignment - 6 :
+6. Assignment - 6 :
    This assignment has two parts to it - 
    
    a. Implement Bollinger bands as an indicator using a 20 day look back. The upper band should represent mean plus one standard deviation and 
