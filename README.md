@@ -22,7 +22,7 @@ The following problems were part of various quizzes from the Computational Inves
 by Georgia Institute of Technology through Coursera. Please note that many functions have been re-used 
 from the QSTK codebase ( https://pypi.org/project/QSTK/ )
 
-1. Assignment - 1 : 
+1. Assignment - 1 :   
    This assignment has two parts to it - 
 
    a. Simulate the performance of a 4 stock portfolio in an excel spreadsheet and compare it to index returns. The stocks 
@@ -31,7 +31,7 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
 
    b. Convert the above spreadsheet into a Python script and extend it to identify optimal allocations for any 4 stock portfolio. 
 
-2. Assignment - 2
+2. Assignment - 2:  
    Create an event study profile of a specific 'known' event on S & P 500 stocks and compare its impact on two groups of stocks. The 
    event is defined when the actual close of the stock price drops below $x, more specifically, when:
    
@@ -42,7 +42,7 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
    **a. Stocks that were in S & P 500 in 2008**      
    **b. Stocks that were in S & P 500 in 2012**  
 
-3. Assignment - 3 
+3. Assignment - 3:  
    This assignment has two parts to it - 
 
    a. Create a market simulation tool, marketsim.py, that takes a command line like this - 
@@ -65,7 +65,7 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
           c. Sharpe Ratio of the portfolio ( Assuming 252 trading days and risk free rate = 0 )  
           d. Cumulative return of the portfolio  
       
-4. Assignment - 4 :
+4. Assignment - 4:  
    The assignment has three parts to it -  
 
    a. Use the event analyzer ( developed in Assignment 2 ) to output a series of trades based on events; instead 
@@ -79,7 +79,7 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
    c. Report the performance of the strategy in terms of total return, average daily return, STDDEV of daily return and 
       Sharpe Ratio for the time period. 
 
-5. Assignment - 5 :
+5. Assignment - 5:  
    This assignment has two parts to it - 
 
    a. Implment Bollinger Bands as an indicator using 20 days look back. The code should generate charts showing the rolling mean, the 
@@ -89,7 +89,7 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
    b. The code should output the indicator value in a range of -1 to 1. +1 represents the situation where the price is at +1 standard  
    deviations above the mean and -1 indicates the situation where the price is -1 standard deviations below the mean. 
 
-6. Assignment - 6 :
+6. Assignment - 6:  
    This assignment has two parts to it - 
    
    a. Implement Bollinger bands as an indicator using a 20 day look back. The upper band should represent mean plus one standard  deviation and the lower band is the mean minus one standard deviation. 
@@ -100,7 +100,7 @@ from the QSTK codebase ( https://pypi.org/project/QSTK/ )
       **Bollinger value for equity yesterday >= y**  
       **Bollinger value for SPY today >= z**  
 
-7. Assignment - 7
+7. Assignment - 7:  
    This assignment has three parts to it - 
 
    a. Implement Bollinger bands as an indicator using 20 day look back. The upper band should represent the mean plus one standard 
